@@ -1,0 +1,17 @@
+# ide files
+/.vscrof/
+/.vscode/
+/.idea/
+
+/build/
+/node_modules/
+/*.tar.gz
+/package-lock.json
+/compile_commands.json
+/.cache
+.yarn/
+*.cjs
+*.mjs
+.venv
+
+/src/version.h

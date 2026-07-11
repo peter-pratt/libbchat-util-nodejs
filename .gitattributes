@@ -1,0 +1,17 @@
+.circleci export-ignore
+.github export-ignore
+**/test export-ignore
+**/tests export-ignore
+**/doc export-ignore
+**/docs export-ignore
+libsession-util/session-router/external/oxen-libquic/external/ngtcp2 export-ignore
+
+
+# protobuf
+libsession-util/external/protobuf/csharp export-ignore
+libsession-util/external/protobuf/java export-ignore
+libsession-util/external/protobuf/objectivec export-ignore
+libsession-util/external/protobuf/php export-ignore
+libsession-util/external/protobuf/python export-ignore
+libsession-util/external/protobuf/ruby export-ignore
+libsession-util/external/protobuf/kokoro export-ignore

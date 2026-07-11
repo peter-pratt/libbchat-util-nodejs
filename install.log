@@ -1,0 +1,508 @@
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+
+> libbchat_util_nodejs@0.6.17 install /home/peter/Desktop/demo/asif/libsession/libsession-util-nodejs
+> cmake-js build --runtime=electron --runtime-version=40.0.0 --CDSUBMODULE_CHECK=OFF --CDLOCAL_MIRROR=https://oxen.rocks/deps --CDENABLE_NETWORKING=OFF --CDWITH_TESTS=OFF
+
+info TOOL Using Ninja generator, because ninja is available.
+info CMD CONFIGURE
+info RUN [
+info RUN   'cmake',
+info RUN   '/home/peter/Desktop/demo/asif/libsession/libsession-util-nodejs',
+info RUN   '--no-warn-unused-cli',
+info RUN   '-G',
+info RUN   'Ninja',
+info RUN   '-DCMAKE_JS_VERSION=7.3.1',
+info RUN   '-DCMAKE_BUILD_TYPE=Release',
+info RUN   '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/peter/Desktop/demo/asif/libsession/libsession-util-nodejs/build/Release',
+info RUN   '-DCMAKE_MSVC_RUNTIME_LIBRARY=MultiThreaded$<$<CONFIG:Debug>:Debug>',
+info RUN   '-DCMAKE_JS_INC=/home/peter/.cmake-js/electron-x64/v40.0.0/include/node',
+info RUN   '-DCMAKE_JS_SRC=',
+info RUN   '-DNODE_RUNTIME=electron',
+info RUN   '-DNODE_RUNTIMEVERSION=40.0.0',
+info RUN   '-DNODE_ARCH=x64',
+info RUN   '-DSUBMODULE_CHECK=OFF',
+info RUN   '-DLOCAL_MIRROR=https://oxen.rocks/deps',
+info RUN   '-DENABLE_NETWORKING=OFF',
+info RUN   '-DWITH_TESTS=OFF',
+info RUN   '-DCMAKE_JS_LIB=',
+info RUN   '-DCMAKE_CXX_FLAGS=-DBUILDING_NODE_EXTENSION'
+info RUN ]
+Not searching for unused variables given on the command line.
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+-- You are currently on commit HEAD
+-- Number of processors detected: 12
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The C compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- libbchat-util v1.6.3
+-- LTO enabled
+-- using oxenc submodule session-router/external/oxen-libquic/external/oxen-encoding
+-- oxenc v1.5.0
+-- using oxenlogging submodule session-router/external/oxen-libquic/external/oxen-logging
+-- LTO enabled
+-- {fmt} version: 12.1.0
+-- Build type: Release
+-- Build spdlog: 1.17.0
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Build type: Release
+-- Looking for fwrite_unlocked
+-- Looking for fwrite_unlocked - found
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Performing Test HAVE_TI_MODE
+-- Performing Test HAVE_TI_MODE - Success
+-- Performing Test HAVE_CPUID
+-- Performing Test HAVE_CPUID - Success
+-- Performing Test HAVE_AVX_ASM
+-- Performing Test HAVE_AVX_ASM - Success
+-- Performing Test HAVE_AMD64_ASM
+-- Performing Test HAVE_AMD64_ASM - Failed
+-- Performing Test HAVE_INLINE_ASM
+-- Performing Test HAVE_INLINE_ASM - Success
+-- Performing Test HAVE_C_VARARRAYS
+-- Performing Test HAVE_C_VARARRAYS - Failed
+-- Performing Test HAVE_ALLOCA
+-- Performing Test HAVE_ALLOCA - Success
+-- Adding libsodium::sodium-internal to libbchat-util bundled library list
+-- using protobuf_lite submodule protobuf
+-- Protocol Buffers Configuring...
+-- 
+-- 3.21.12.0
+-- Configuration script parsing status [
+--   Description : Protocol Buffers
+--   Version     : 3.21.12.0 (3.21.12)
+--   Contact     : protobuf@googlegroups.com
+-- ]
+-- Performing Test protobuf_HAVE_LD_VERSION_SCRIPT
+-- Performing Test protobuf_HAVE_LD_VERSION_SCRIPT - Success
+-- Performing Test protobuf_HAVE_BUILTIN_ATOMICS
+-- Performing Test protobuf_HAVE_BUILTIN_ATOMICS - Success
+-- Protocol Buffers Configuring done
+-- ZSTD VERSION: 1.5.2
+-- Performing Test CXX_FLAG_STD_CPLUSPLUS11
+-- Performing Test CXX_FLAG_STD_CPLUSPLUS11 - Success
+-- Performing Test C_FLAG_STD_C99
+-- Performing Test C_FLAG_STD_C99 - Success
+-- Performing Test C_FLAG_WALL
+-- Performing Test C_FLAG_WALL - Success
+-- Performing Test CXX_FLAG_WALL
+-- Performing Test CXX_FLAG_WALL - Success
+-- Performing Test C_FLAG_WEXTRA
+-- Performing Test C_FLAG_WEXTRA - Success
+-- Performing Test CXX_FLAG_WEXTRA
+-- Performing Test CXX_FLAG_WEXTRA - Success
+-- Performing Test C_FLAG_WUNDEF
+-- Performing Test C_FLAG_WUNDEF - Success
+-- Performing Test CXX_FLAG_WUNDEF
+-- Performing Test CXX_FLAG_WUNDEF - Success
+-- Performing Test C_FLAG_WSHADOW
+-- Performing Test C_FLAG_WSHADOW - Success
+-- Performing Test CXX_FLAG_WSHADOW
+-- Performing Test CXX_FLAG_WSHADOW - Success
+-- Performing Test C_FLAG_WCAST_ALIGN
+-- Performing Test C_FLAG_WCAST_ALIGN - Success
+-- Performing Test CXX_FLAG_WCAST_ALIGN
+-- Performing Test CXX_FLAG_WCAST_ALIGN - Success
+-- Performing Test C_FLAG_WCAST_QUAL
+-- Performing Test C_FLAG_WCAST_QUAL - Success
+-- Performing Test CXX_FLAG_WCAST_QUAL
+-- Performing Test CXX_FLAG_WCAST_QUAL - Success
+-- Performing Test C_FLAG_WSTRICT_PROTOTYPES
+-- Performing Test C_FLAG_WSTRICT_PROTOTYPES - Success
+-- CMAKE_INSTALL_PREFIX: /usr/local
+-- CMAKE_INSTALL_LIBDIR: lib
+-- ZSTD_LEGACY_SUPPORT not defined!
+-- ZSTD_MULTITHREAD_SUPPORT is disabled
+-- Adding libzstd_static to libbchat-util bundled library list
+-- using nlohmann_json submodule session-router/external/nlohmann
+-- Using the multi-header code from /home/peter/Desktop/demo/asif/libsession/libsession-util-nodejs/libbchat-util/external/session-router/external/nlohmann/include/
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.18") found components: Interpreter 
+-- Python found, we are going to amalgamate.py.
+-- The tests are disabled.
+-- The benchmarks can be enabled by setting SIMDUTF_BENCHMARKS, e.g., -D SIMDUTF_BENCHMARKS=ON.
+-- Compiling using the C++ standard:11
+-- Adding simdutf to libbchat-util bundled library list
+# date: USE_SYSTEM_TZ_DB OFF
+# date: MANUAL_TZ_DB OFF
+# date: USE_TZ_DB_IN_DOT OFF
+# date: BUILD_SHARED_LIBS OFF
+# date: ENABLE_DATE_TESTING OFF
+# date: DISABLE_STRING_VIEW OFF
+-- Adding util to libbchat-util bundled library list
+-- Adding crypto to libbchat-util bundled library list
+-- Adding config to libbchat-util bundled library list
+-- Git was not found or this is not a git checkout. Setting version tag to 'unknown'
+-- Adding version to libbchat-util bundled library list
+-- Adding protobuf::libprotobuf-lite to libbchat-util bundled library list
+-- Disabling -Werror for proto unused-parameter
+-- Adding protos to libbchat-util bundled library list
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/peter/Desktop/demo/asif/libsession/libsession-util-nodejs/build
+info CMD BUILD
+info RUN [
+info RUN   'cmake',
+info RUN   '--build',
+info RUN   '/home/peter/Desktop/demo/asif/libsession/libsession-util-nodejs/build',
+info RUN   '--config',
+info RUN   'Release'
+info RUN ]
+[1/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_core/hchacha20/core_hchacha20.c.o
+[2/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/profile_pic.cpp.o
+[3/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/pro/types.cpp.o
+[4/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/pro/pro.cpp.o
+[5/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/base_config.cpp.o
+[6/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/constants.cpp.o
+[7/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/utilities.cpp.o
+[8/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/fmt/CMakeFiles/fmt.dir/src/os.cc.o
+[9/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/meta/meta_base_wrapper.cpp.o
+[10/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/user_config.cpp.o
+[11/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/CMakeFiles/oxen-logging.dir/src/catlogger.cpp.o
+[12/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/contacts_config.cpp.o
+[13/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/fmt/CMakeFiles/fmt.dir/src/format.cc.o
+[14/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/user_groups_config.cpp.o
+[15/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/convo_info_volatile_config.cpp.o
+[16/334] Linking CXX static library libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/fmt/libfmt.a
+[17/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/CMakeFiles/oxen-logging.dir/src/type.cpp.o
+[18/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_aead/aes256gcm/aesni/aead_aes256gcm_aesni.c.o
+[19/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.o
+[20/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/CMakeFiles/oxen-logging.dir/src/log.cpp.o
+[21/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_aead/xchacha20poly1305/sodium/aead_xchacha20poly1305.c.o
+[22/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_auth/crypto_auth.c.o
+[23/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_auth/hmacsha256/auth_hmacsha256.c.o
+[24/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_auth/hmacsha512/auth_hmacsha512.c.o
+[25/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_box/crypto_box.c.o
+[26/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_auth/hmacsha512256/auth_hmacsha512256.c.o
+[27/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_box/crypto_box_easy.c.o
+[28/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_box/crypto_box_seal.c.o
+[29/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_box/curve25519xsalsa20poly1305/box_curve25519xsalsa20poly1305.c.o
+[30/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_core/hsalsa20/core_hsalsa20.c.o
+[31/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/CMakeFiles/oxen-logging.dir/src/level.cpp.o
+[32/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/addon.cpp.o
+[33/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_core/hsalsa20/ref2/core_hsalsa20_ref2.c.o
+[34/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_core/salsa/ref/core_salsa_ref.c.o
+[35/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-avx2.c.o
+[36/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_generichash/blake2b/generichash_blake2.c.o
+[37/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-sse41.c.o
+[38/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ssse3.c.o
+[39/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_generichash/blake2b/ref/blake2b-compress-ref.c.o
+[40/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.o
+[41/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_generichash/blake2b/ref/generichash_blake2b.c.o
+[42/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c.o
+[43/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_generichash/crypto_generichash.c.o
+[44/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_hash/sha256/hash_sha256.c.o
+[45/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_hash/crypto_hash.c.o
+[46/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_hash/sha512/hash_sha512.c.o
+[47/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.o
+[48/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_internal/fe25519.c.o
+[49/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_hash/sha512/cp/hash_sha512_cp.c.o
+[50/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_kdf/blake2b/kdf_blake2b.c.o
+[51/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_kdf/crypto_kdf.c.o
+[52/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_kx/crypto_kx.c.o
+[53/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.o
+[54/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.o
+[55/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_onetimeauth/poly1305/sse2/poly1305_sse2.c.o
+[56/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/argon2-core.c.o
+[57/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.o
+[58/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx2.c.o
+[59/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/argon2-encoding.c.o
+[60/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-avx512f.c.o
+[61/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ssse3.c.o
+[62/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/blake2b-long.c.o
+[63/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/argon2.c.o
+[64/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_scalarmult/crypto_scalarmult.c.o
+[65/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/pwhash_argon2id.c.o
+[66/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/crypto_pwhash.c.o
+[67/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/pwhash_argon2i.c.o
+[68/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.o
+[69/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_scalarmult/curve25519/sandy2x/curve25519_sandy2x.c.o
+[70/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe51_invert.c.o
+[71/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_scalarmult/curve25519/sandy2x/fe_frombytes_sandy2x.c.o
+[72/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/argon2/argon2-fill-block-ref.c.o
+[73/334] Building ASM object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_scalarmult/curve25519/sandy2x/sandy2x.S.o
+[74/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_secretbox/crypto_secretbox.c.o
+[75/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/encrypt_decrypt/encrypt_decrypt.cpp.o
+[76/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.o
+[77/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_secretbox/xsalsa20poly1305/secretbox_xsalsa20poly1305.c.o
+[78/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_secretbox/crypto_secretbox_easy.c.o
+[79/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_sign/crypto_sign.c.o
+[80/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_shorthash/siphash24/shorthash_siphash24.c.o
+[81/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_secretstream/xchacha20poly1305/secretstream_xchacha20poly1305.c.o
+[82/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_shorthash/crypto_shorthash.c.o
+[83/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphash24_ref.c.o
+[84/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_sign/ed25519/ref10/keypair.c.o
+[85/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_sign/ed25519/ref10/open.c.o
+[86/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-avx2.c.o
+[87/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_sign/ed25519/ref10/sign.c.o
+[88/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_sign/ed25519/sign_ed25519.c.o
+[89/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/chacha20/dolbeau/chacha20_dolbeau-ssse3.c.o
+[90/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.o
+[91/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/crypto_stream.c.o
+[92/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/chacha20/stream_chacha20.c.o
+[93/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6.c.o
+[94/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa20/ref/salsa20_ref.c.o
+[95/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa20/stream_salsa20.c.o
+[96/334] Building ASM object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa20/xmm6/salsa20_xmm6-asm.S.o
+[97/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/any_lite.cc.o
+[98/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/xsalsa20/stream_xsalsa20.c.o
+[99/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_verify/sodium/verify.c.o
+[100/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-avx2.c.o
+[101/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa20/xmm6int/salsa20_xmm6int-sse2.c.o
+[102/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/randombytes/internal/randombytes_internal_random.c.o
+[103/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/randombytes/sysrandom/randombytes_sysrandom.c.o
+[104/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/randombytes/randombytes.c.o
+[105/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/sodium/runtime.c.o
+[106/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/sodium/version.c.o
+[107/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/sodium/core.c.o
+[108/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/sodium/codecs.c.o
+[109/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/sodium/utils.c.o
+[110/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_curve25519xchacha20poly1305.c.o
+[111/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_core/ed25519/core_ed25519.c.o
+[112/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_core/ed25519/core_ristretto255.c.o
+[113/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_box/curve25519xchacha20poly1305/box_seal_curve25519xchacha20poly1305.c.o
+[114/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/scryptsalsa208sha256/crypto_scrypt-common.c.o
+[115/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pbkdf2-sha256.c.o
+[116/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/scryptsalsa208sha256/nosse/pwhash_scryptsalsa208sha256_nosse.c.o
+[117/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/scryptsalsa208sha256/scrypt_platform.c.o
+[118/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/scryptsalsa208sha256/pwhash_scryptsalsa208sha256.c.o
+[119/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_pwhash/scryptsalsa208sha256/sse/pwhash_scryptsalsa208sha256_sse.c.o
+[120/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_shorthash/siphash24/shorthash_siphashx24.c.o
+[121/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_scalarmult/ed25519/ref10/scalarmult_ed25519_ref10.c.o
+[122/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_scalarmult/ristretto255/ref10/scalarmult_ristretto255_ref10.c.o
+[123/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_shorthash/siphash24/ref/shorthash_siphashx24_ref.c.o
+[124/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa2012/ref/stream_salsa2012_ref.c.o
+[125/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_sign/ed25519/ref10/obsolete.c.o
+[126/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_secretbox/xchacha20poly1305/secretbox_xchacha20poly1305.c.o
+[127/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa2012/stream_salsa2012.c.o
+[128/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa208/ref/stream_salsa208_ref.c.o
+[129/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/salsa208/stream_salsa208.c.o
+[130/334] Building C object libbchat-util/external/libsodium-internal/CMakeFiles/sodium-internal.dir/src/libsodium/crypto_stream/xchacha20/stream_xchacha20.c.o
+[131/334] Linking C static library libbchat-util/external/libsodium-internal/libsodium-internal.a
+[132/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/arenaz_sampler.cc.o
+[133/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[134/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[135/334] Building CXX object CMakeFiles/libbchat_util_nodejs.dir/src/groups/meta_group_wrapper.cpp.o
+[136/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/io/io_win32.cc.o
+[137/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/arenastring.cc.o
+[138/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/arena.cc.o
+[139/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[140/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o
+[141/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/generated_enum_util.cc.o
+[142/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o
+[143/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/generated_message_util.cc.o
+[144/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/io/strtod.cc.o
+[145/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/implicit_weak_message.cc.o
+[146/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/io/zero_copy_stream.cc.o
+[147/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/io/coded_stream.cc.o
+[148/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o
+[149/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/inlined_string_field.cc.o
+[150/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/io/zero_copy_stream_impl.cc.o
+[151/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/generated_message_tctable_lite.cc.o
+[152/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/statusor.cc.o
+[153/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/map.cc.o
+[154/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/extension_set.cc.o
+[155/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/status.cc.o
+[156/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/bytestream.cc.o
+[157/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/repeated_ptr_field.cc.o
+[158/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/message_lite.cc.o
+[159/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/int128.cc.o
+[160/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/parse_context.cc.o
+[161/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/stringpiece.cc.o
+[162/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arenaz_sampler.cc.o
+[163/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/stringprintf.cc.o
+[164/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/common.cc.o
+[165/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/structurally_valid.cc.o
+[166/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/repeated_field.cc.o
+[167/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/time.cc.o
+[168/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/io_win32.cc.o
+[169/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arena.cc.o
+[170/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/stubs/strutil.cc.o
+[171/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/any_lite.cc.o
+[172/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arenastring.cc.o
+[173/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/wire_format_lite.cc.o
+[174/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/generated_enum_util.cc.o
+[175/334] Linking CXX static library libbchat-util/external/protobuf/libprotobuf-lite.a
+[176/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/zero_copy_stream.cc.o
+[177/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/generated_message_util.cc.o
+[178/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/strtod.cc.o
+[179/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o
+[180/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/zero_copy_stream_impl.cc.o
+[181/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/inlined_string_field.cc.o
+[182/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/implicit_weak_message.cc.o
+[183/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/coded_stream.cc.o
+[184/334] Building CXX object libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[185/334] Linking CXX static library libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/spdlog/libspdlog.a
+[186/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/statusor.cc.o
+[187/334] Linking CXX static library libbchat-util/external/session-router/external/oxen-libquic/external/oxen-logging/liboxen-logging.a
+[188/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/bytestream.cc.o
+[189/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/repeated_ptr_field.cc.o
+[190/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/status.cc.o
+[191/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/generated_message_tctable_lite.cc.o
+[192/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/int128.cc.o
+[193/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/extension_set.cc.o
+[194/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/map.cc.o
+[195/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/common.cc.o
+[196/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/stringpiece.cc.o
+[197/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/parse_context.cc.o
+[198/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/message_lite.cc.o
+[199/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/stringprintf.cc.o
+[200/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/structurally_valid.cc.o
+[201/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/time.cc.o
+[202/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/repeated_field.cc.o
+[203/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/strutil.cc.o
+[204/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/wire_format_lite.cc.o
+[205/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/any.cc.o
+[206/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/any.pb.cc.o
+[207/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/duration.pb.cc.o
+[208/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/gzip_stream.cc.o
+[209/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/compiler/importer.cc.o
+[210/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/api.pb.cc.o
+[211/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/empty.pb.cc.o
+[212/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/field_mask.pb.cc.o
+[213/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/generated_message_bases.cc.o
+[214/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/dynamic_message.cc.o
+[215/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/tokenizer.cc.o
+[216/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/io/printer.cc.o
+[217/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/generated_message_tctable_full.cc.o
+[218/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/compiler/parser.cc.o
+[219/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/service.cc.o
+[220/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/extension_set_heavy.cc.o
+[221/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/stubs/substitute.cc.o
+[222/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/descriptor.pb.cc.o
+[223/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/descriptor_database.cc.o
+[224/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/map_field.cc.o
+[225/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/source_context.pb.cc.o
+[226/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/reflection_ops.cc.o
+[227/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/generated_message_reflection.cc.o
+[228/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/timestamp.pb.cc.o
+[229/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/delimited_message_util.cc.o
+[230/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/message.cc.o
+[231/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/unknown_field_set.cc.o
+[232/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/type.pb.cc.o
+[233/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/error_listener.cc.o
+[234/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/struct.pb.cc.o
+[235/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/json_escaping.cc.o
+[236/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/field_comparator.cc.o
+[237/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/field_mask_util.cc.o
+[238/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/field_mask_utility.cc.o
+[239/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/json_stream_parser.cc.o
+[240/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/datapiece.cc.o
+[241/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/default_value_objectwriter.cc.o
+[242/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/text_format.cc.o
+[243/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/object_writer.cc.o
+[244/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/common/debug.c.o
+[245/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/common/entropy_common.c.o
+[246/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/common/error_private.c.o
+[247/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/protostream_objectsource.cc.o
+[248/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/json_objectwriter.cc.o
+[249/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/common/pool.c.o
+[250/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/common/threading.c.o
+[251/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/common/fse_decompress.c.o
+[252/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/common/zstd_common.c.o
+[253/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/type_info.cc.o
+[254/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/common/xxhash.c.o
+[255/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/fse_compress.c.o
+[256/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/hist.c.o
+[257/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/proto_writer.cc.o
+[258/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/utility.cc.o
+[259/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/time_util.cc.o
+[260/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstd_compress_literals.c.o
+[261/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstd_compress_superblock.c.o
+[262/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstd_compress_sequences.c.o
+[263/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/huf_compress.c.o
+[264/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstd_ldm.c.o
+[265/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstd_compress.c.o
+[266/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstd_double_fast.c.o
+[267/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/internal/protostream_objectwriter.cc.o
+[268/334] Building ASM object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/decompress/huf_decompress_amd64.S.o
+[269/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstd_opt.c.o
+[270/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstdmt_compress.c.o
+[271/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/decompress/zstd_ddict.c.o
+[272/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/json_util.cc.o
+[273/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstd_fast.c.o
+[274/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/decompress/zstd_decompress.c.o
+[275/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/dictBuilder/divsufsort.c.o
+[276/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/dictBuilder/cover.c.o
+[277/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/decompress/huf_decompress.c.o
+[278/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/dictBuilder/fastcover.c.o
+[279/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/dictBuilder/zdict.c.o
+[280/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/type_resolver_util.cc.o
+[281/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/wrappers.pb.cc.o
+[282/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/decompress/zstd_decompress_block.c.o
+[283/334] Building C object libbchat-util/external/zstd/build/cmake/lib/CMakeFiles/libzstd_static.dir/__/__/__/lib/compress/zstd_lazy.c.o
+[284/334] Linking C static library libbchat-util/external/zstd/build/cmake/lib/libzstd.a
+[285/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/descriptor.cc.o
+[286/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/wire_format.cc.o
+[287/334] Building CXX object libbchat-util/src/CMakeFiles/util.dir/file.cpp.o
+[288/334] Building CXX object libbchat-util/external/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/util/message_differencer.cc.o
+[289/334] Linking CXX static library libbchat-util/external/protobuf/libprotobuf.a
+[290/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/curve25519.cpp.o
+[291/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/ed25519.cpp.o
+[292/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/hash.cpp.o
+[293/334] Building CXX object libbchat-util/src/CMakeFiles/util.dir/logging.cpp.o
+[294/334] Building CXX object libbchat-util/src/CMakeFiles/util.dir/util.cpp.o
+[295/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/random.cpp.o
+[296/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/blinding.cpp.o
+[297/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/types.cpp.o
+[298/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/sodium_array.cpp.o
+[299/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/xed25519.cpp.o
+[300/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/bt_merge.cpp.o
+[301/334] Building C object libbchat-util/src/CMakeFiles/config.dir/config/error.c.o
+[302/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/multi_encrypt.cpp.o
+[303/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/attachments.cpp.o
+[304/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/bchat_encrypt.cpp.o
+[305/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/bchat_protocol.cpp.o
+[306/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/encrypt.cpp.o
+[307/334] Building CXX object libbchat-util/external/simdutf/src/CMakeFiles/simdutf.dir/simdutf.cpp.o
+[308/334] Linking CXX static library libbchat-util/external/simdutf/src/libsimdutf.a
+[309/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/community.cpp.o
+[310/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/groups/info.cpp.o
+[311/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/protos.cpp.o
+[312/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/local.cpp.o
+[313/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/internal.cpp.o
+[314/334] 
+[315/334] Building CXX object libbchat-util/src/CMakeFiles/crypto.dir/pro_backend.cpp.o
+[316/334] Building C object libbchat-util/src/CMakeFiles/version.dir/version.c.o
+[317/334] Linking C static library libbchat-util/src/libversion.a
+[318/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/fields.cpp.o
+[319/334] Linking CXX static library libbchat-util/src/libbchat-util.a
+[320/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config.cpp.o
+[321/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/groups/members.cpp.o
+[322/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/contacts.cpp.o
+[323/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/convo_info_volatile.cpp.o
+[324/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/groups/keys.cpp.o
+[325/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/pro.cpp.o
+[326/334] Building CXX object libbchat-util/proto/CMakeFiles/protos.dir/WebSocketResources.pb.cc.o
+[327/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/base.cpp.o
+[328/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/user_profile.cpp.o
+[329/334] Building CXX object libbchat-util/proto/CMakeFiles/protos.dir/BChatProtos.pb.cc.o
+[330/334] Linking CXX static library libbchat-util/proto/libbchat-protos.a
+[331/334] Linking CXX static library libbchat-util/src/libbchat-crypto.a
+[332/334] Building CXX object libbchat-util/src/CMakeFiles/config.dir/config/user_groups.cpp.o
+[333/334] Linking CXX static library libbchat-util/src/libbchat-config.a
+[334/334] Linking CXX shared library Release/libbchat_util_nodejs.node
+lto-wrapper: warning: using serial compilation of 54 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+Done in 1m 35.6s using pnpm v10.28.1
