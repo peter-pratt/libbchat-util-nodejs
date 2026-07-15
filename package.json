@@ -7,7 +7,7 @@
   "license": "GPL-3.0",
   "author": {
     "name": "Beldex Project",
-    "email": "team@beldex.io"
+    "email": "peter-pratt@beldex.io"
   },
   "scripts": {
     "clean": "rimraf .cache build",
